@@ -30,7 +30,6 @@ public class UnitsSpawner : MonoBehaviour
             {
                 counter = 1;
             }
-                print(counter);
             SpawnObject(counter);
             yield return seconds;
             counter++;
