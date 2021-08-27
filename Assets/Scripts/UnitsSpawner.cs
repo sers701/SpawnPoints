@@ -8,6 +8,7 @@ public class UnitsSpawner : MonoBehaviour
     [SerializeField] private Transform[] _spawnPoints;
     [SerializeField] private float _delayBetweenSpawn;
     [SerializeField] private bool _isWorking;
+
     private void Awake()
     {
         _spawnPoints = GetComponentsInChildren<Transform>();
